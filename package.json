@@ -1,0 +1,33 @@
+{
+  "name": "steal-ipa",
+  "version": "1.0.0",
+  "description": "Steal IPA from pgyer.com",
+  "main": "index.js",
+  "bin": {
+    "steal": "dist/bin/steal.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idy/steal-ipa"
+  },
+  "author": "idy0013@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/idy/steal-ipa/issues"
+  },
+  "homepage": "https://github.com/idy/steal-ipa",
+  "dependencies": {
+    "request": "^2.53.0",
+    "xml2js": "^0.4.5",
+    "yargs": "^3.4.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-coffee": "^2.3.1",
+    "gulp-header": "^1.2.2",
+    "gulp-util": "^3.0.4"
+  }
+}
